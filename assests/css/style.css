@@ -1,0 +1,268 @@
+* {
+    font-family: arial;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(45deg,  #7d78a1, #97a7e1,#000, #0e1735, #b3abbc, #7d78a1, #0e1735, #000);
+    background-size: 150% 150%;
+    animation:  colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+    background-position: 0% 50%;
+
+    }
+    50% {
+    background-position: 100% 50%;
+
+    }
+    100%{
+    background-position: 0% 50%;
+
+    }
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    align-items: center;
+    
+}
+header {
+    height: 100px;
+    border-bottom: 1px solid #000;
+    margin-left: 70px;
+    margin-right: 70px; 
+}
+.logo {
+    margin-top: -50px;
+}
+.logosamsung {
+    width: 200px;
+}
+.objects {
+    display: flex;
+}
+.text_button h1 {
+    flex:1;
+    font-weight: bold;
+    font-size: 40px;
+    width: 500px;
+    color:#FFF;
+    margin-top: 100px;
+}
+
+.text_button button {
+    padding: 10px;
+    margin-left: 265px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    
+}
+.text_button button:hover {
+    padding: 10px;
+    margin-left: 265px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: #fff;
+    -webkit-filter: drop-shadow(0px 0px 30px #000); 
+    filter: drop-shadow(0px 0px 30px #000);
+}
+.s23 {
+    height: 500px;
+    margin-top: 70px;
+    margin-left: -100px;
+    filter: drop-shadow(0px 0px 30px #000);
+}
+.s23:hover {
+    height: 580px;
+    margin-top: 70px;
+    margin-left: -100px;
+    filter: drop-shadow(0px 0px 30px #000);
+    transition: all 0.5s ease;
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
+}
+
+.widget {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    
+}
+.widget h1 {
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;  
+}
+.widget h2 {
+    color: #FFF;
+    font-size: 15px;
+    text-align: center;  
+}
+
+
+.object1 {
+    width: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.object1:hover {
+    width: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    filter: drop-shadow(0px 0px 30px #fff);
+}
+.object2 {
+    width: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.object2:hover {
+    width: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    filter: drop-shadow(0px 0px 30px #fff);
+}
+
+.object3 {
+    width: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.object3:hover {
+    width: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    filter: drop-shadow(0px 0px 30px #fff);
+}
+.object4 {
+    width: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.object4:hover {
+    width: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    filter: drop-shadow(0px 0px 30px #fff);
+}
+.object5 {
+    width: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.object5:hover {
+    width: 100px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    filter: drop-shadow(0px 0px 30px #fff);
+}
+
+.smartphone {
+    border:5px;
+    width: 200px;
+    height: 300px;
+}
+
+.battery {
+    border:5px;
+    width: 200px;
+    height: 300px;
+}
+.processador {
+    border:5px;
+    width: 200px;
+    height: 300px;
+}
+.performace {
+    border:5px;
+    width: 200px;
+    height: 300px;
+}
+.tecnology5g {
+    border:5px;
+    width: 200px;
+    height: 300px;
+}
+
+.video {
+    margin-bottom: 300px;
+}
+.videomaker {
+    -webkit-filter: drop-shadow(0px 0px 30px #000); 
+    filter: drop-shadow(0px 0px 30px #000);
+}
+
+footer {
+    height: 100px;
+    border-top: 0.5px solid #fff;
+    margin-left: 70px;
+    margin-right: 70px; 
+    padding-bottom: 0px;
+}
+
+.rodape {
+    margin-top: -15px;
+    color: #424242;
+}
+footer h1{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+footer h2{
+    font-size: 13px;
+    margin-top: 0;
+    color: #424242;
+}
+
+footer a{
+    text-decoration: none;
+    color: #CCC
+}
+.insta {
+    margin-top: -63px;
+    margin-left: 320px;
+}
+
+.logoinsta {
+    height: 23px;
+}
+
+@media (max-width:1080px) {
+    body {
+        animation:none;
+        height: auto;
+        width: min-content;
+        background-size: 350% 250%;
+    }
+}
+
+
+
+
